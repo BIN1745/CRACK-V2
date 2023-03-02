@@ -25,7 +25,7 @@ def tanya_metode():
                     for nama in name.split(' '):
                         if len(nama) < 3:
                             continue
-                        elif len(nama) == 3 or len (nama) == 4 or len(nama) == 5 len(nama) == 6 len (nama) == 7 len (nama) == 8:
+                        elif len(nama) == 3 or len (nama) == 4 or len(nama) == 5 :
                             password.append(name)
                             password.append(nama + '123')
                             password.append(nama + '1234')
